@@ -26,7 +26,7 @@
  
             $('.js-search .text-input').keydown(function (event) {
                 if (event.keyCode == 13) {
-                    location.href = 'https://www.google.com/search?q=site:yumemor.com ' + $(this).val();
+                    location.href = 'https://www.google.com/search?q=site:biancard.com ' + $(this).val();
                     return false;
                 }
             })
@@ -88,7 +88,7 @@
 
         var bannerNode = $('.top-image');
         if(bannerNode.data('enable')){
-            var index = parseInt((Math.random() * 4) + 1);
+            var index = parseInt((Math.random() * 3) + 1);
             bannerNode.attr('style','background-image:url(/banner/'+index+'.jpg)');
         }
     })
