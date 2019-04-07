@@ -26,7 +26,7 @@
  
             $('.js-search .text-input').keydown(function (event) {
                 if (event.keyCode == 13) {
-                    location.href = 'https://www.google.com/search?q=site:biancard.com ' + $(this).val();
+                    location.href = 'https://www.google.com/search?q=site:blog.biancard.com ' + $(this).val();
                     return false;
                 }
             })

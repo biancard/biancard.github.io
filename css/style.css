@@ -134,7 +134,7 @@ ins {
 .p-header .p-image {
   display: block;
   width: 100%;
-  padding-bottom: 550px;
+  padding-bottom: 250px;
   background: center center/cover no-repea;
 }
 .p-header #wave-canvas {
@@ -209,7 +209,7 @@ header.scrolled #nav-toggle {
 .m-header .top-image {
   display: block;
   width: 100%;
-  padding-bottom: 550px;
+  padding-bottom: 250px;
   background: center center/cover no-repeat;
 }
 .m-header #wave-canvas {
